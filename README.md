@@ -18,7 +18,7 @@ To work with the balanced dataset and perform various analyses, we employed five
 ### 1. Random Sampling
 Random sampling involves selecting data points randomly from the dataset without any specific order or pattern. The sample size was determined using the formula:
 
-n = \left( \frac{Z^2 \cdot p \cdot (1-p)}{(E)^2} \right)
+n = $\left( \frac{Z^2 \cdot p \cdot (1-p)}{(E)^2} \right)$
 
 Where:
 - `z` is the Z-score for the desired confidence level.
@@ -32,7 +32,7 @@ Systematic sampling involves selecting every nth data point from the dataset, wh
 ### 3. Stratified Sampling
 Stratified sampling divides the dataset into subgroups (strata) based on a specific feature or characteristic. Samples are then taken proportionally from each stratum to ensure that the sample represents the entire population. The sample size for each stratum was determined using the formula:
 
-n = \left( \frac{Z^2 \cdot p \cdot (1-p)}{(E/S)^2} \right)
+n = $\left( \frac{Z^2 \cdot p \cdot (1-p)}{(E/S)^2} \right)$
 
 Where:
 - `z` is the Z-score for the desired confidence level.
