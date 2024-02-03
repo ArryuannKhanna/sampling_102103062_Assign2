@@ -46,6 +46,16 @@ Bootstrap sampling is a resampling technique that involves drawing samples with 
 
 ### 5. Cross-Fold Validation
 Cross-fold validation is a technique for model evaluation. It involves splitting the dataset into multiple subsets (folds), training and testing the model on different fold combinations. This method helps assess model performance and generalization.
+## Results
 
-## Conclusion
-By initially addressing the class imbalance with SMOTE and subsequently applying different sampling techniques, we have created balanced samples for analysis, model training, and evaluation. Each sampling technique has its advantages and use cases, depending on the specific analysis or modeling task at hand.
+|                   | Random Sampling           | Systematic Sampling        | Stratified Sampling        | Bootstrap Sampling        | Cross-fold Validation Sampling |
+|-------------------|---------------------------|----------------------------|---------------------------|---------------------------|--------------------------------|
+| Logistic Regression|0.9117647058823529        |0.8441558441558441          |0.9705882352941176         |0.9528795811518325         |0.9185185185185185              |
+| Random Forest     |0.9705882352941176         |0.948051948051948           |0.9705882352941176         |0.9947643979057592         |0.9740740740740741              |
+| SVM               |0.8970588235294118         |0.8701298701298701          |0.9705882352941176         |0.9345549738219895         |0.8962962962962961              |
+| KNN               |0.7058823529411765         |0.7402597402597403          |0.9705882352941176         |0.8821989528795812         |0.7666666666666667              |
+| Naive Bayes       |0.7941176470588235         |0.7532467532467533          |0.9705882352941176         | 0.8691099476439791        |0.8481481481481481               
+
+
+
+
